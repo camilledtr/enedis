@@ -1,6 +1,63 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  background-color: rgba(220, 220, 220, 0.87);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  padding-left: 100px;
+}
+
+.main-page {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+@media screen and (min-width: 900px) {
+  .main-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.section-ul {
+  background-color: rgba(220, 220, 220, 0.87);
+  border-radius: 5px;
+  padding: 10px 30px;
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.section-li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.map-container {
+  height: 60vh;
+  width: 70%;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .map-container {
+    width: 95%;
+  }
 }
