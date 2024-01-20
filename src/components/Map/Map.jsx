@@ -106,7 +106,7 @@ const Map = ({ sections, currentSection }) => {
           >
             <Popup>
               <div>{section.name}</div>
-              <div>Nombre d'accidents = {section.nbOfAccident}</div>
+              <div>Accidents : {section.nbOfAccident}</div>
             </Popup>
           </Circle>
         )
