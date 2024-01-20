@@ -37,7 +37,7 @@ const sections = [
   {
     id: 4,
     name: 'Tronçon 4',
-    lat: 49.1169233,
+    lat: 48.09088537944154,
     lng: -1.6462295,
     nbofaccident:3,
     p: 0.8,
